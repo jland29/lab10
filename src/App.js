@@ -41,7 +41,7 @@ function DisplayCourse() {
     <div>
       <h1>{courseInfo.name}</h1>
       <h2>{courseInfo.instructor}</h2>
-      <h3>{courseInfo.semester} {course.year}</h3>
+      <h3>{courseInfo.semester} {courseInfo.year}</h3>
       <h4>Capacity: {courseInfo.enrolled} / {courseInfo.capacity}</h4>
 
       <button onClick={enroll}>
